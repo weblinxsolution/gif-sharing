@@ -143,35 +143,58 @@ input::placeholder {
     background: #E5194D;
 }
 
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
 .item-1 {
     grid-area: header;
+    background-image: url("/assets/image/img-1.png");
+    height: 410px; /* Adjust the height as needed */
 }
 
 .item-2 {
     grid-area: menu;
+    background-image: url("/assets/image/img-2.png");
+    height: 200px;
 }
 
 .item-3 {
     grid-area: main;
+    background-image: url("/assets/image/img-3.png");
+    height: 200px;
 }
 
 .item-4 {
     grid-area: right;
+    background-image: url("/assets/image/img-6.png");
+    height: 200px;
 }
 
 .item-5 {
     grid-area: footer;
+    background-image: url("/assets/image/img-5.png");
+    height: 200px;
 }
 
 .item-6 {
     grid-area: left;
+    background-image: url("/assets/image/img-4.png");
+    height: 410px;
 }
 
 .main-grids {
     display: grid;
-    gap: 1rem;
+    gap: 10px;
     grid-template-areas:
-        'header menu main left'
+        'header menu  main left'
         'header right footer left';
 }
-
