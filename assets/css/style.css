@@ -158,7 +158,8 @@ input::placeholder {
 .item-1 {
     grid-area: header;
     background-image: url("/assets/image/img-1.png");
-    height: 410px; /* Adjust the height as needed */
+    height: 410px;
+    /* Adjust the height as needed */
 }
 
 .item-2 {
@@ -195,6 +196,6 @@ input::placeholder {
     display: grid;
     gap: 10px;
     grid-template-areas:
-        'header menu  main left'
+        'header menu  main  left'
         'header right footer left';
 }
