@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.text-pink {
+    color: #E5194D !important;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+body {
+    background: #242425;
+}
+
+.navbar-brand img {
+    width: 20%;
+}
+
+.create-btn {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #E5194D;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #8C18F1;
+}
+
+.nav-btn-img {
+    width: 30px;
+}
+
+input::placeholder {
+    color: #E5194D !important;
+    font-weight: 600;
+}
+
+.search-btn {
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+}
+
+.search-btn img {
+    width: 50%;
+}
+
+.header-bg {
+    background-color: #161617;
+    padding-bottom: 1.5rem;
+}
+
+.spacing {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.under-line-before::before {
+    content: '';
+    position: absolute;
+    width: 85px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    border-radius: 100px;
+    background: #E5194D;
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: menu;
+}
+
+.item-3 {
+    grid-area: main;
+}
+
+.item-4 {
+    grid-area: right;
+}
+
+.item-5 {
+    grid-area: footer;
+}
+
+.item-6 {
+    grid-area: left;
+}
+
+.main-grids {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas:
+        'header menu main left'
+        'header right footer left';
+}
+
