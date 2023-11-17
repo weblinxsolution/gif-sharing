@@ -4,6 +4,7 @@
     .wide-area {
         height: 140px !important;
     }
+
     .long-area {
         height: 295px !important;
     }
@@ -14,20 +15,25 @@
     .wide-area {
         height: 110px !important;
     }
+
     .long-area {
         height: 230px !important;
     }
-    .right-arrow{
+
+    .right-arrow {
         width: 13px !important;
     }
+
     .text-small {
         font-size: 9px !important;
     }
 }
+
 @media (max-width:600px) {
     .wide-area {
         height: 85px !important;
     }
+
     .long-area {
         height: 183px !important;
     }
@@ -39,4 +45,14 @@
     }
 }
 
-@media (max-width:370px) {}
+@media (max-width:370px) {
+    .footer-bg {
+        background-color: #161617;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .copy-text{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+}

@@ -606,6 +606,8 @@ input::placeholder {
 
 .footer-shotcuts ul {
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
     gap: .5rem;
     margin-bottom: 0;
 }
