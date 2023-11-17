@@ -1,0 +1,38 @@
+@media (max-width:1366px) {}
+
+@media (max-width:995px) {
+    .wide-area {
+        height: 140px !important;
+    }
+    .long-area {
+        height: 295px !important;
+    }
+}
+
+
+@media (max-width:768px) {
+    .wide-area {
+        height: 110px !important;
+    }
+    .long-area {
+        height: 230px !important;
+    }
+    .right-arrow{
+        width: 13px !important;
+    }
+    .text-small {
+        font-size: 9px !important;
+    }
+}
+@media (max-width:600px) {
+    .wide-area {
+        height: 85px !important;
+    }
+    .long-area {
+        height: 183px !important;
+    }
+}
+
+@media (max-width:400px) {}
+
+@media (max-width:370px) {}
