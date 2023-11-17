@@ -124,6 +124,7 @@ input::placeholder {
     background-color: transparent;
     position: absolute;
     right: 10px;
+    top: 8px;
 }
 
 .search-btn img {
@@ -635,7 +636,10 @@ input::placeholder {
 
 }
 
-
+.katana-input input{
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+}
 .pills {
     gap: .5rem .1rem;
 }
