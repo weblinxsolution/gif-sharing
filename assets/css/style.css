@@ -60,7 +60,7 @@ a {
     text-decoration: none;
     color: #FFF !important;
     font-size: 14px !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 ul {
@@ -616,3 +616,42 @@ input::placeholder {
     font-weight: 200 !important;
     color: #C0C2C8 !important;
 }
+
+/* Mega DropDown */
+.mega-drop-down{
+    background-color: #161617;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: absolute;
+    z-index: 2;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 103%;
+    display: none;
+}
+.mega-drop-down-1{
+    background-color: #161617;
+
+}
+
+
+.pills {
+    gap: .5rem .1rem;
+}
+
+.mega-heading p {
+    width: max-content;
+    position: relative;
+}
+
+.mega-heading p::before {
+    width: 100%;
+    content: '';
+    position: absolute;
+    height: 4px;
+    border-radius: 100px;
+    bottom: -1px;
+    background-color: #E5194D;
+}
+

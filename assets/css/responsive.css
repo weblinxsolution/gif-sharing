@@ -30,6 +30,10 @@
 }
 
 @media (max-width:600px) {
+    .column {
+        width: 100%;
+        height: auto;
+      }
     .wide-area {
         height: 85px !important;
     }
@@ -46,6 +50,9 @@
 }
 
 @media (max-width:370px) {
+    .mega-drop-down{
+        top: 14% !important;
+    }
     .footer-bg {
         background-color: #161617;
         padding-top: 5%;
