@@ -6,26 +6,28 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: #FFF;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #E5194D;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #E5194D;
-  }
+}
+
 .fw-100 {
     font-weight: 100;
 }
@@ -679,4 +681,45 @@ input::placeholder {
     border-radius: 100px;
     bottom: -1px;
     background-color: #E5194D;
+}
+
+/* Profile Page Css */
+.profile-img-card {
+    background-color: #161617;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.follow__more {
+    background-color: #161617;
+    border-radius: 0px 0px 5px 5px;
+    padding: 1rem;
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 50%;
+}
+
+.verfied-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+
+.verfied-mark img {
+    width: 100%;
+}
+
+.follwers_card {
+    background-color: #161617;
+    border-radius: 5px;
+    padding: .5rem 0;
+    width: 100%;
 }
