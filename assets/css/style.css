@@ -73,7 +73,7 @@
 
 img {
     width: 100%;
-    /* object-fit: cover !important; */
+    object-fit: cover !important;
 }
 
 a {
@@ -828,6 +828,10 @@ input::placeholder {
     padding-bottom: 1rem;
 }
 
+.the-select-area ul {
+    margin-bottom: 0 !important;
+}
+
 .the-select-area select {
     background-color: rgba(0, 0, 0, 0.171) !important;
     color: #FFF;
@@ -936,4 +940,115 @@ input::placeholder {
 
 .wide-column-2 {
     grid-area: 2 / 3 / 3 / 5;
+}
+
+.gallery-section select {
+    background-color: #161617;
+    color: #FFF;
+    border: 2px solid #C0C2C8 !important;
+    border-radius: 15px;
+    padding: 10px 8rem 10px 10px;
+}
+
+.gallery-filters {
+    margin-top: 10%;
+}
+
+/* Gallery All section Grid */
+.gallery-type {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.galler-01 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.galler-02 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.galler-03 {
+    grid-area: 1 / 2 / 3 / 4;
+}
+
+.galler-04 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.galler-05 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.galler-06 {
+    grid-area: 1 / 5 / 3 / 7;
+}
+
+.quantummancer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.quantummancer-01 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.quantummancer-02 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.quantummancer-03 {
+    grid-area: 1 / 2 / 3 / 4;
+}
+
+.quantummancer-04 {
+    grid-area: 1 / 4 / 3 / 5;
+}
+
+.quantummancer-05 {
+    grid-area: 1 / 5 / 2 / 7;
+}
+
+.quantummancer-06 {
+    grid-area: 2 / 5 / 3 / 7;
+}
+
+.celestialharbinger {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.celestialharbinger-01 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.celestialharbinger-02 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.celestialharbinger-03 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.celestialharbinger-04 {
+    grid-area: 1 / 4 / 3 / 6;
+}
+
+.celestialharbinger-05 {
+    grid-area: 1 / 6 / 3 / 7;
+}
+.height-180{
+    height: 180px;
+}
+.height-380{
+    height: 380px;
 }
