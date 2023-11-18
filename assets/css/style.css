@@ -1065,6 +1065,7 @@ input::placeholder {
     background-color: #161617;
     box-shadow: none;
     color: #E5194D;
+
 }
 
 .accordion-button:focus {
@@ -1075,6 +1076,7 @@ input::placeholder {
     background-color: #161617;
     color: #E5194D;
     padding: 2rem;
+    border-radius: 15px;
 }
 
 .accordion-button::after {
