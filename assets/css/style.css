@@ -1046,9 +1046,41 @@ input::placeholder {
 .celestialharbinger-05 {
     grid-area: 1 / 6 / 3 / 7;
 }
-.height-180{
+
+.height-180 {
     height: 180px;
 }
-.height-380{
+
+.height-380 {
     height: 380px;
+}
+
+/* FAQ */
+.accordion-item {
+    background-color: #161617;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #161617;
+    box-shadow: none;
+    color: #E5194D;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button {
+    background-color: #161617;
+    color: #E5194D;
+    padding: 2rem;
+}
+
+.accordion-button::after {
+    background-image: url("/assets/image/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/assets/image/close.png");
 }
