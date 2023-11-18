@@ -735,9 +735,10 @@
     <section class="mt-5">
         <div class="wrapper">
             <div class="row mx-0">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <div class="profile-card">
-                        <div class="profile-img-card d-flex flex-column justify-content-center align-items-center">
+                        <div
+                            class="profile-img-card profile-img-card1 d-flex flex-column justify-content-center align-items-center">
                             <div class="profile-image">
                                 <img src="./assets/image/profile-image.png" alt="">
                             </div>
@@ -750,7 +751,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-2 mt-1">
+                        <div class="d-flex align-items-center gap-1 mt-1">
                             <div class="follwers_card text-center">
                                 <p class="text-white fs-3 fw-600 m-0">
                                     551
@@ -843,20 +844,472 @@
                             </div>
                         </div>
                         <div class="follow__more mt-1">
-                            <div class="d-flex align-items-center justify-content-center">
+                            <div class="follow__more__underline d-flex align-items-center justify-content-center">
                                 <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
-                                        <path d="M5.61328 28V25.3333C5.61328 23.9188 6.17519 22.5623 7.17538 21.5621C8.17557 20.5619 9.53213 20 10.9466 20H13.6133" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M16.2799 14.6667C19.2254 14.6667 21.6132 12.2789 21.6132 9.33333C21.6132 6.38781 19.2254 4 16.2799 4C13.3343 4 10.9465 6.38781 10.9465 9.33333C10.9465 12.2789 13.3343 14.6667 16.2799 14.6667Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M23.28 29C26.5937 29 29.28 26.3137 29.28 23C29.28 19.6863 26.5937 17 23.28 17C19.9663 17 17.28 19.6863 17.28 23C17.28 26.3137 19.9663 29 23.28 29Z" stroke="#E5194D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M23.28 20V26" stroke="#E5194D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M20.28 23H26.28" stroke="#E5194D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                      </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32"
+                                        fill="none">
+                                        <path
+                                            d="M5.61328 28V25.3333C5.61328 23.9188 6.17519 22.5623 7.17538 21.5621C8.17557 20.5619 9.53213 20 10.9466 20H13.6133"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M16.2799 14.6667C19.2254 14.6667 21.6132 12.2789 21.6132 9.33333C21.6132 6.38781 19.2254 4 16.2799 4C13.3343 4 10.9465 6.38781 10.9465 9.33333C10.9465 12.2789 13.3343 14.6667 16.2799 14.6667Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M23.28 29C26.5937 29 29.28 26.3137 29.28 23C29.28 19.6863 26.5937 17 23.28 17C19.9663 17 17.28 19.6863 17.28 23C17.28 26.3137 19.9663 29 23.28 29Z"
+                                            stroke="#E5194D" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M23.28 20V26" stroke="#E5194D" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M20.28 23H26.28" stroke="#E5194D" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
                                 </div>
                                 <div>
                                     <p class="m-0 text-white fs-600">Follow</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="filter__sections d-flex justify-content-center">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link nav-link-1 active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">All</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link nav-link-2" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Images</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link nav-link-3" id="pills-contact-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">GIFs</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bt-botom">
+                        <div class="filter__tags mt-3">
+                            <div>
+                                <h2 class="text-white fw-700 text-center">
+                                    Filter by tags
+                                </h2>
+                            </div>
+                            <div class="d-flex flex-wrap">
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">lorem ipsum</p>
+                                </div>
+                                <div class="pink-bg mt-2 ms-2">
+                                    <p class="m-0 text-white fw-700 text-center">....</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-filter-gallery mt-3">
+                        <div class="row mx-0 align-items-center justify-content-between">
+                            <div class="col-md-3">
+                                <div class="the-select-area">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Latest</option>
+                                        <option value="1">Top</option>
+                                        <option value="2">Oldest</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-md-flex justify-content-lg-end justify-content-center mt-lg-0 mt-4">
+                                <div class="the-select-area">
+                                    <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link nav-link-01 active" id="pills-home-tab1"
+                                                data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+                                                role="tab" aria-controls="pills-home" aria-selected="true"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 20 20" fill="none">
+                                                    <g clip-path="url(#clip0_1_2020)">
+                                                        <path
+                                                            d="M19 17.5C19 18.3284 18.3284 19 17.5 19H13.125C12.2966 19 11.625 18.3284 11.625 17.5C11.625 16.6716 12.2966 16 13.125 16H17.5C18.3284 16 19 16.6716 19 17.5ZM19 10.75C19 11.8546 18.1046 12.75 17 12.75H13.625C12.5204 12.75 11.625 11.8546 11.625 10.75V3C11.625 1.89543 12.5204 1 13.625 1H17C18.1046 1 19 1.89543 19 3V10.75ZM8.375 17C8.375 18.1046 7.47957 19 6.375 19H3C1.89543 19 1 18.1046 1 17V9.875C1 8.77043 1.89543 7.875 3 7.875H6.375C7.47957 7.875 8.375 8.77043 8.375 9.875V17ZM8.375 2.8125C8.375 3.81352 7.56352 4.625 6.5625 4.625H2.8125C1.81148 4.625 1 3.81352 1 2.8125C1 1.81148 1.81148 1 2.8125 1H6.5625C7.56352 1 8.375 1.81148 8.375 2.8125Z"
+                                                            stroke="white" stroke-width="2" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_1_2020">
+                                                            <rect width="20" height="20" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg></button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link nav-link-02" id="pills-profile-tab2"
+                                                data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+                                                role="tab" aria-controls="pills-profile" aria-selected="false"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 20 20" fill="none">
+                                                    <path
+                                                        d="M17.75 17C17.75 18.1046 16.8546 19 15.75 19H3C1.89543 19 1 18.1046 1 17V11.125C1 10.0204 1.89543 9.125 3 9.125H15.75C16.8546 9.125 17.75 10.0204 17.75 11.125V17ZM17.75 3.25C17.75 4.35457 16.8546 5.25 15.75 5.25H3C1.89543 5.25 1 4.35457 1 3.25V3C1 1.89543 1.89543 1 3 1H15.75C16.8546 1 17.75 1.89543 17.75 3V3.25Z"
+                                                        stroke="white" stroke-width="2" />
+                                                </svg></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mt-3">
+                            <div class="profile-page-grids-area">
+                                <div class="one-mega-four-mini">
+                                    <div class="mega-0 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-1 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-2 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-3 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                         <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-4 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                         <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="one-mega-two-wide mt-2">
+                                    <div class="one-mega position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-1 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-2 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="one-mega-two-wide mt-2">
+                                    <div class="one-mega position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-1 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-2 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="one-mega-two-wide mt-2">
+                                    <div class="one-mega position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-1 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-2 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="one-mega-two-wide mt-2">
+                                    <div class="one-mega position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-1 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="wide-column-2 position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img1.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="one-mega-four-mini mt-2 mb-5">
+                                    <div class="mega-0 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-1 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-2 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                        <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-3 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                         <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="mini-4 tick-views position-relative">
+                                        <div>
+                                            <img src="./assets/image/testing-img.png" alt="">
+                                        </div>
+                                         <div class="tick-upper">
+                                            <img src="./assets/image/purple-tick.png" alt="">
+                                        </div>
+                                        <div class="views">
+                                            <p class="m-0 text-white">
+                                                5K
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="paginations d-flex gap-3 justify-content-center">
+                        <div>
+                            <p class="m-0 text-white">1</p>
+                        </div>
+                        <div>
+                            <p class="m-0 text-white">2</p>
+                        </div>
+                        <div>
+                            <p class="m-0 text-white">3</p>
+                        </div>
+                        <div>
+                            <p class="m-0 text-white">4</p>
+                        </div>
+                        <div>
+                            <p class="m-0 text-white">></p>
+                        </div>
+                        <div>
+                            <p class="m-0 text-white">>></p>
                         </div>
                     </div>
                 </div>
@@ -866,7 +1319,7 @@
 
 
     <!-- Footer -->
-    <section class="footer-bg">
+    <section class="footer-bg mt-5">
         <footer class="wrapper">
             <div class="mx-0 row align-items-center justify-content-between flex-lg-row flex-column-reverse">
                 <div class="col-lg-6 ">
