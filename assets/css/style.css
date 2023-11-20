@@ -308,6 +308,13 @@ input::placeholder {
     border-radius: 100px;
 }
 
+.pink-bg-1 {
+    background-color: transparent;
+    padding: 2px 20px;
+    border: 1px solid #E5194D;
+    border-radius: 100px;
+}
+
 .tick-putple {
     position: absolute;
     top: 10px;
@@ -1086,8 +1093,35 @@ input::placeholder {
 .accordion-button:not(.collapsed)::after {
     background-image: url("/assets/image/close.png");
 }
-#my-footer{
+
+#my-footer {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.border-none {
+    border: none;
+}
+
+.modal-content {
+    background-color: #161617;
+    border-radius: 20px;
+}
+
+.modal-dialog {
+    max-width: 1200px;
+}
+
+.add-tag-modal input {
+    border: 1px solid #E5194D;
+    background-color: transparent;
+    border-radius: 100px;
+}
+.moadl-btn{
+    background-color: #E5194D;
+    border: none;
+    border-radius: 100px;
+    padding: 7px 35px;
+    color: #FFF;
 }
