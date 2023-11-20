@@ -1118,6 +1118,9 @@ input::placeholder {
     background-color: transparent;
     border-radius: 100px;
 }
+.add-tag-modal input::placeholder {
+    color: #FFF !important;
+}
 .moadl-btn{
     background-color: #E5194D;
     border: none;
