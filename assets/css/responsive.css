@@ -44,6 +44,9 @@
 }
 
 @media (max-width:400px) {
+    .mega-drop-down-1 .row{
+        height: 675px;
+    }
     input::placeholder {
         font-size: 11px !important;
     }

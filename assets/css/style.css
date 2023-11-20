@@ -646,7 +646,7 @@ input::placeholder {
     padding-top: 5%;
     padding-bottom: 5%;
     position: absolute;
-    z-index: 2;
+    z-index: 20;
     top: 90%;
     left: 50%;
     transform: translateX(-50%);
@@ -1085,4 +1085,9 @@ input::placeholder {
 
 .accordion-button:not(.collapsed)::after {
     background-image: url("/assets/image/close.png");
+}
+#my-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
