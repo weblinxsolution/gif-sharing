@@ -1278,3 +1278,24 @@ input::placeholder {
     background-color: #161617;
     border-radius: 20px;
 }
+
+.login__area input {
+    background-color: transparent;
+    border: 1px solid #C0C2C8;
+}
+
+.login__area input::placeholder {
+    color: #fff !important;
+    font-weight: 200;
+}
+
+.login-area-bg {
+    background-color: #161617;
+    border-radius: 10px;
+    padding: 2rem 0;
+
+}
+
+.unkown-input {
+    margin-top: 50%;
+}
