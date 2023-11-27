@@ -705,7 +705,12 @@ input::placeholder {
 .profile-img-card1 {
     border-radius: 25px 25px 5px 5px !important;
 }
-
+.custom-height{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .profile-img-card {
     background-color: #161617;
     border-radius: 5px;
@@ -728,8 +733,10 @@ input::placeholder {
 }
 
 .profile-image img {
-    width: 35%;
-    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 .verfied-mark {
