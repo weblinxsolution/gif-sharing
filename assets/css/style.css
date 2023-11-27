@@ -1173,9 +1173,11 @@ input::placeholder {
     font-weight: 600;
     font-size: 11px;
 }
-.random__logos img{
+
+.random__logos img {
     width: 90%;
 }
+
 .upper-nav-search {
     background-color: #FFF;
     border: 1px solid #000;
@@ -1224,4 +1226,55 @@ input::placeholder {
 
 .close-green img {
     width: 35%;
+}
+
+.gradient-color {
+    background: -webkit-linear-gradient(#E5194D, #8C18F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-grey {
+    background-color: #242425;
+    border-radius: 20px 20px 2px 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 280px;
+}
+
+.chosse-file {
+    background-color: #242425;
+    width: 280px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2px 2px 20px 20px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chosse-file p {
+    width: max-content;
+    position: relative;
+}
+
+.chosse-file p::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    z-index: 20;
+    background-color: #8C18F1;
+    bottom: -5px;
+    border-radius: 100px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.upload__card__bg {
+    background-color: #161617;
+    border-radius: 20px;
 }
