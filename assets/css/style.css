@@ -728,7 +728,8 @@ input::placeholder {
 }
 
 .profile-image img {
-    width: 50%;
+    width: 35%;
+    border-radius: 100%;
 }
 
 .verfied-mark {
